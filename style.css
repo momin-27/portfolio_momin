@@ -1,0 +1,353 @@
+:root {
+    --color1: #1f88f1;
+    --color2: #880088;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--color1)
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    max-width: 1400px;
+    margin-inline: auto;
+    padding-inline: 40px;
+}
+
+.portfolio{
+    margin-left: 0px;
+}
+
+.text{
+    color: var(--color1);
+    padding: 30px 0px;
+}
+
+.main-nav{
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.nav-links ul{
+    justify-content: end;
+    gap: 40px;
+}
+
+.hover-link{
+    color: #272727;
+    transition: .25s ease-out;
+}
+.hover-link :hover{
+    color: var(--color1);
+}
+.header-section{
+    justify-content: space-between;
+    margin-top: 0px;
+    background-color: #C9D9F9;
+    padding-bottom: 50px;
+}
+.header-left {
+    justify-self: left;
+    margin-top: 100px;
+}
+
+.hello{
+    color: #4E4E4E;
+    font-weight: 400;
+}
+.name{
+    color: black;
+    font-weight: 500;
+}
+.role{
+    color: var(--color1);
+    font-weight: 500;
+}
+.social-icons {
+    margin-top: 50px;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.cv{
+    margin-top: 50px;
+}
+.button1 {
+    border-style: initial;
+    border-radius: 10px;
+    font-weight: 600;
+    color: var(--color1);
+    padding: 10px 20px;
+    box-shadow: 0 0 2px var(--color1);
+    transition: 0.5s ease-out;
+}
+.button1:hover{
+    background-color: var(--color1);
+    font-weight: 600;
+    color: white;
+}
+
+.header-right {
+    justify-self: right;
+    background-image: url(/Images/Ellipse\ 9.png), url(/Images/Rectangle\ 5.png);
+    background-position: center;
+    background-position-y: 18vh;
+    background-repeat: no-repeat;
+    background-size: 390px 280px;
+}
+
+.header-right img{
+    width: 600px;
+}
+
+
+.about-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+.about-left{
+    background-image: url(Images/Rectangle\ 4.png), url(Images/Ellipse\ 8.png);
+    background-position: center;
+    background-position-y: 118px;
+    background-repeat: no-repeat;
+    background-size: 390px 280px;
+}
+.about-left img{
+    width: 450px;
+    margin-bottom: 20px;
+}
+.about-right{
+
+}
+.about-me{
+    gap: 8px;
+    margin-bottom: 25px;
+}
+.About-text{
+    font-weight: 500;
+    color: black;
+}
+.me-text{
+    font-weight: 500;
+    color: var(--color1);
+}
+.textabout {
+    font-weight: 300;
+    font-size: large;
+    color: #272727;
+    text-align: justify;
+}
+.seemore{
+    margin-top: 25px;
+}
+.My-skills {
+    align-content: center;
+    background-color: #C9D9F9;
+}
+.skills{
+    gap: 8px;
+    margin-bottom: 25px;
+}
+.common-header {
+    margin-top: 40px;
+    justify-content: center;
+    gap: 8px;
+}
+
+.text1 {
+    font-weight: 500;
+    color: black;
+}
+.text2 {
+    font-weight: 500;
+    color: var(--color1);
+}
+.skills{
+    justify-content: space-between;
+}
+.first-skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cad-design{
+    width: 100px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.s-text1{
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #1f88f1;
+}
+.second-skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.graphics-design{
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.s-text2{
+    font-weight: 500;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #1f88f1;
+}
+.third-skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.simulation{
+    width: 100px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.s-text3{
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #1f88f1;
+}
+.fourth-skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.UI-design{
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.s-text4{
+    font-weight: 500;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #1f88f1;
+}
+.software-header {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    justify-content: center;
+    gap: 0px;
+}
+
+
+.softwares{
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.Solidworks{
+    height: 50px;
+}
+.Photoshop{
+    height: 50px;
+}
+.Illustrator{
+    height: 40px; 
+}
+.Ansys{
+    height: 50px;
+}
+.Keyshot{
+    height: 50px;
+}
+.Sketchup{
+    height: 50px;
+}
+.Figma{
+    height: 50px;
+}
+
+.forms{
+    margin-top: 20px;
+}
+
+.input-wrap{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:2rem;
+    margin-bottom:2rem;
+}
+.input-wrap-2{
+    display: flex;
+    flex-direction: column;
+}
+.input-wrap-2 input{
+    margin-bottom:2rem;
+}
+.Contact-form input{
+    padding:1rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid var(--color1);
+    font-size: 1rem;
+    background: #C9D9F9;
+}
+.input-wrap-2 textarea{
+    padding:1rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid var(--color1);
+    font-size: 1rem;
+    background: #C9D9F9;
+}
+.input-wrap-2 textarea:focus, input:focus{
+    outline:none;  
+}
+.btn-wrapper{
+    text-align: right;
+    margin-top:1rem;
+}
