@@ -124,7 +124,7 @@ ul{
 
 .header-right {
     justify-self: right;
-    background-image: url(/Images/Ellipse\ 9.png), url(/Images/Rectangle\ 5.png);
+    background-image: url(Images/Ellipse\ 9.png), url(Images/Rectangle\ 5.png);
     background-position: center;
     background-position-y: 18vh;
     background-repeat: no-repeat;
