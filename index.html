@@ -4,30 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio of Momin</title>
+    <link rel="Website icon" type="png" href="Images/favicon_M.png">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!--Top Navigation Bar-->
-    <nav>
+    <nav id="nav">
         <div class="container main-nav flex">
             <div class="portfolio text">
-                <h1>Portfolio</h1>
+                <h1>Portfolio.</h1>
             </div>
 
             <div class="nav-links">
                 <ul class="flex">
-                    <li><a href="#" class="hover-link">
+                    <li><a href="#home" class="hover-link">
                             <h3>Home</h3>
                         </a></li>
-                    <li><a href="#" class="hover-link">
+                    <li><a href="#about" class="hover-link">
                             <h3>About me</h3>
                         </a></li>
-                    <li><a href="#" class="hover-link">
+                    <li><a href="#skills" class="hover-link">
                             <h3>My Skills</h3>
                         </a></li>
-                    <li><a href="#" class="hover-link">
+                    <li><a href="#contact" class="hover-link">
                             <h3>Contact me</h3>
                         </a></li>
                 </ul>
@@ -36,7 +37,7 @@
 
     </nav>
     <!--Top Header Section-->
-    <section class="container header-section flex">
+    <section class="container header-section flex" id="home">
         <div class="header-left">
             <h1 class="hello">Hello I'm<br></h1>
             <h1 class="name">Md Mominul Islam<br></h1>
@@ -54,7 +55,7 @@
         </div>
     </section>
     <!--About Me Section-->
-    <section class="container about-section flex">
+    <section class="container about-section flex" id="about">
         <div class="about-left">
             <img src="Images/About.png">
         </div>
@@ -65,29 +66,29 @@
         </div>
     </section>
     <!--My Skills Section-->
-    <section class="container My-skills">
+    <section class="container My-skills" id="skills">
         <div class="container">
             <div class="common-header flex">
                 <h2 class="text1">My</h2>
                 <h2 class="text2">Skills</h2>
             </div>
         </div>
-        <div class="container skills flex">
-            <div class="first-skill">
-                <img class="cad-design" src="Images/CAD Design icon.png">
-                <a href="#" class="s-text1">3D DESIGN</a>
+        <div class="container skills">
+            <div class="card">
+                <img src="Images/CAD Design icon.png" class="icon">
+                <a href="#" class="skill-name">3D DESIGN</a>
             </div>
-            <div class="second-skill">
-                <a href="#" class="s-text2">GRAPHICS DESIGN</a>
-                <img class="graphics-design" src="Images/Graphics Design icon.png">
+            <div class="card">
+                <img src="Images/Graphics Design icon.png" class="icon">
+                <a href="#" class="skill-name">GRAPHICS DESIGN</a>
             </div>
-            <div class="third-skill">
-                <img class="simulation" src="Images/Simulation Icon.png">
-                <a href="#" class="s-text3">STATIC SIMULATION</a>
+            <div class="card">
+                <img src="Images/Simulation Icon.png" class="icon">
+                <a href="#" class="skill-name">SIMULATION</a>
             </div>
-            <div class="fourth-skill">
-                <a href="#" class="s-text4">UI DESIGN</a>
-                <img class="UI-design" src="Images/UI design icon.png">
+            <div class="card">
+                <img src="Images/UI design icon.png" class="icon">
+                <a href="#" class="skill-name">UI DESIGN</a>
             </div>
         </div>
 
@@ -114,7 +115,7 @@
         </div>
     </section>
     <!--Contact Section-->
-    <section class="Contact-me">
+    <section class="Contact-me" id="contact">
         <div class="container">
             <div class="common-header flex">
                 <h2 class="text1">Contact</h2>
@@ -143,9 +144,28 @@
 
 
     </section>
-
-
-    <section><br><br><br><br><br></section>
+    <!--Social-links Section-->
+    <section class="Social-links">
+        <div class="container">
+            <div class="common-header flex">
+                <h2 class="text1">Social</h2>
+                <h2 class="text2">Links</h2>
+            </div>
+        </div>
+            <div class="social-links flex">
+                <img class="Facebook" src="Images/Facebook.png">
+                <img class="WhatsApp" src="Images/WhatsApp.png">
+                <img class="LinkedIn" src="Images/LinkedIn Circled.png">
+                <img class="Gmail" src="Images/Gmail Logo.png">
+                
+            </div>
+        </div>
+    </section>
+    <!--Footer Section-->
+    <section class="footer">
+        <p class="last">Copyright @ 2024 | Md Mominul Islam</p>
+        <p class="last">made with &lt/&gt and #</p>
+    </section>
 
 </body>
 
